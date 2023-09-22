@@ -1,8 +1,9 @@
-# Prompt user for input
-user_input = input("Enter an integer: ")
+# Initialize variables of different types
+a = 2
+b = 3.0
+c = 'myName'
 
-# Convert user input to integer
-user_input = int(user_input)
-
-# Print user input
-print(user_input)
+# Print the type of each variable
+print(a, 'is of type', type(a))
+print(b, 'is of type', type(b))
+print(c, 'is of type', type(c))
